@@ -13,7 +13,7 @@ class Solution:
             else:
                 cnt_2 +=1          
         
-        for i in range(cnt_0+1):
+        for i in range(cnt_0):
             nums[i] = 0
         for i in range(cnt_0,cnt_1+cnt_0):
             nums[i] = 1
