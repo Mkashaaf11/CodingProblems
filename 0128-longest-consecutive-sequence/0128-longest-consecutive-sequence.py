@@ -12,7 +12,7 @@ class Solution:
             if nums[i] == nums[i-1]+1:
                 length+=1
                 maxLength = max(maxLength,length)
-            else:
+            elif nums[i]!=nums[i-1]:
                 length=1    
 
 
